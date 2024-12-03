@@ -49,12 +49,27 @@
 
     </properties>
 
+    <developers>
+        <developer>
+            <id>jwcarman</id>
+            <name>James Carman</name>
+        </developer>
+    </developers>
+
     <licenses>
         <license>
-            <name>Apache License, Version 2.0</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <name>Apache 2</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
+
+    <scm>
+        <url>https://github.com/jwcarman/aoc-utils</url>
+        <connection>scm:git:git@github.com:jwcarman/aoc-utils.git</connection>
+        <developerConnection>scm:git:git@github.com:jwcarman/aoc-utils.git</developerConnection>
+    </scm>
 
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
